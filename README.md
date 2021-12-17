@@ -1,4 +1,4 @@
-# Parallel_COVID_Data_Wrangler
+# Parallelized COVID Data Wrangler
 
 This project implements a parallelized COVID data processor to simulate the process of parallel pre-processing of datasets that may contain duplicate or invalid records.
 The program takes as input a zipcode, a month, and a year specified by the user, parses through ≥ 500 csv files with potential duplications and invalidate entries to gather and generate the total number of COVID cases, tests, and deaths for the specified zipcode over the specified month and year.

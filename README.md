@@ -29,3 +29,19 @@ const usage =
 ```
 
 For details about each parallel implementations, please refer to the system writeup in Writeup_Final.pdf
+
+# Running the program:
+The program can be ran following the usage statements provided in the section above. In the proj3/covid directory, run the following commands to produce the results below:
+
+```
+$: go run proj3/covid static 500 0 60603 5 2020
+2,48,0
+$: go run proj3/covid bsp 3000 4 60640 2 2021
+182,9961,5
+$; go run proj3/covid static 1000 3 89149 2 2020
+0,0,0
+$; go run proj3/covid stealing 500 3 89149 2 2020
+0,0,0
+```
+
+Since data is read in using path in the file, you must be in the folder to run the program. Otherwise, the program will fail to get the data.
